@@ -22,9 +22,10 @@ Here, we briefly discuss a few techniques for detecting outliers:
 ### 1. Visual Inspection:
 
    - **Scatter Plots:** Create scatter plots for pairs of variables to visually identify data points that appear far from the main cluster.
+     ![Alt Text](visuals/scaterplot.jpg)
 
    - **Box Plots:** Box plots provide a visual representation of the data distribution, highlighting any data points beyond the whiskers (outliers).
-
+      ![Alt Text](visuals/Box_Plots.png)
 
 ### 2. Summary Statistics:
 
@@ -86,13 +87,13 @@ Note: The IQR method is robust to the shape of the distribution and is especiall
 
 Outliers are often easy to spot in histograms. For example, the point on the far left in the above figure is an outlier.
 
-![Histogram Example](img/histogram.png)
+![Histogram Example](visuals/histograms.png)
 
 ### 4. Quantile-Quantile (Q-Q) Plots:
 
 A Q-Q plot is a graphic method for testing whether a dataset follows a given distribution, but it may also be used to determine outliers. The expected values are not following the reference line, indicating the data was not normally distributed, and the data points away from the reference lines are suspected outliers.
 
-![Q-Q Plot Example](img/qq_plot.png)
+![Q-Q Plot Example](visuals/Outlier_Q_Q_Plot.png)
 
 ### 5. Machine Learning-Based Methods:
 

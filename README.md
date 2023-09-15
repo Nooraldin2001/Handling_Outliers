@@ -236,4 +236,9 @@ Replace outliers with a specific value or using a more advanced imputation metho
 - Preserving Data Integrity: When you believe that outliers represent valid but extreme observations, and their removal or transformation would lead to a loss of valuable information, custom imputation can be employed to retain the integrity of the data while making the extreme values more manageable.
 - Model Interpretability: If you are using imputed data as input to a machine learning model and you want the imputed values to be meaningful and interpretable in the context of the model, custom imputation can help achieve this by assigning values consistent with the model's logic.
 
+**Disclaimer:** Not all information in this repository may be 100% correct. If you have any comments or feedback, please feel free to contact me. I am very grateful for your feedback on my work.
+
+## Future Work:
+
+I am willing to continue working on this repository with the practical implementation of each outlier handling method.
 

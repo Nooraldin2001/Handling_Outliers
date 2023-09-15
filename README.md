@@ -22,9 +22,10 @@ Here, we briefly discuss a few techniques for detecting outliers:
 ### 1. Visual Inspection:
 
    - **Scatter Plots:** Create scatter plots for pairs of variables to visually identify data points that appear far from the main cluster.
+![Scatter Plot Example](C:/Noor_work/courses/Training_Data_Analysis/How_To_Handle_Outlairs/Outlier_Q_Q_Plot.png)
+
    - **Box Plots:** Box plots provide a visual representation of the data distribution, highlighting any data points beyond the whiskers (outliers).
 
-![Scatter Plot Example](img/scatter_plot.png)
 ![Box Plot Example](img/box_plot.png)
 
 ### 2. Summary Statistics:
